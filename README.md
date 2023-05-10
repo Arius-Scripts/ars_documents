@@ -13,11 +13,11 @@ ox_inventory/data/items.lua
 
 ox_inventory/modules/items/client.lua
 
-Item('document', function(data, slot)
-	local metadata = slot.metadata
+	Item('document', function(data, slot)
+		local metadata = slot.metadata
 
-	exports.ars_documents:openDocument(metadata)
-end)
+		exports.ars_documents:openDocument(metadata)
+	end)
 
 ![image](https://github.com/Arius-Development/ars_documents/assets/70983185/d80c46fc-7c46-40d0-b059-451caf2ebea6)
 
