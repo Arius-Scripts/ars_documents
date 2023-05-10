@@ -2,16 +2,16 @@
 A simple documents with item using metadata 
 
 
-instalation 
+**Instalation**
 
-ox_inventory/data/items.lua
+> ox_inventory/data/items.lua
 
 	['document'] = {
 		label = 'Document',
 		consume = 0,
 	},
 
-ox_inventory/modules/items/client.lua
+> ox_inventory/modules/items/client.lua
 
 	Item('document', function(data, slot)
 		local metadata = slot.metadata
