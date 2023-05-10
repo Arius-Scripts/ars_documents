@@ -1,5 +1,5 @@
 # ars_documents
-Simple document script
+A simple documents with item using metadata 
 
 
 ![image](https://github.com/Arius-Development/ars_documents/assets/70983185/d80c46fc-7c46-40d0-b059-451caf2ebea6)
