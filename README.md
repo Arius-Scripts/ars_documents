@@ -5,6 +5,7 @@ A simple documents with item using metadata
 instalation 
 
 ox_inventory/data/items.lua
+
 	['document'] = {
 		label = 'Document',
 		consume = 0,
