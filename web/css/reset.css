@@ -1,0 +1,25 @@
+/* CSS RESET */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font: inherit;
+}
+
+body {
+	min-height: 100vh;
+}
+
+img,
+picture,
+svg,
+video {
+	display: block;
+	width: 100%;
+}

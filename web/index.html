@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>Arius Documents</title>
+	</head>
+
+	<body>
+		<div class="container" id="container">
+			<div class="page" id="page">
+				<h1 class="page-title" id="page-title">Title of the certificate</h1>
+
+				<div class="header personal-information">
+					<p>Informations</p>
+				</div>
+
+				<div class="image">
+					<input type="text" class="image-link" id="image-link" placeholder="image link" oninput="updateImage()" />
+					<img src="https://cdn.discordapp.com/attachments/1017732810200596500/1078323961080848444/ARIUSDEVLOGO.png" alt="" id="image-src" />
+				</div>
+
+				<div class="inputs">
+					<input type="text" class="name input" id="name" placeholder="name" />
+					<input type="text" class="surname input" id="surname" placeholder="surname" />
+					<input type="date" class="date input" id="date" placeholder="today's date" />
+				</div>
+
+				<div class="header text">
+					<p>Object</p>
+				</div>
+				<div class="text-container">
+					<textarea class="textarea" id="textarea" name="Object" wrap="soft" required placeholder="object of the document"></textarea>
+				</div>
+				<div class="header sign">
+					<p>Sign</p>
+				</div>
+
+				<div class="sign-formation">
+					<textarea class="textarea-information" id="textarea-information" name="Object" wrap="soft" required placeholder="guidelines"></textarea>
+					<p class="signature" id="signature">Click to sign</p>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+</html>
